@@ -1,5 +1,5 @@
 import React from 'react'
-import Parent from './Parent'
+import Parent from './SetPhotoParent'
 
 const SetPhotoHome = () => {
   return (

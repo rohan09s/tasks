@@ -1,0 +1,17 @@
+import React from "react";
+
+const AppLayout = ({ children }) => {
+  return (
+    <div
+      style={{minHeight: "100vh", width: "100%", background: "#f5f7fa", padding: "30px 20px", boxSizing: "border-box", display: "flex", justifyContent: "center"}}
+    >
+      <div
+        style={{width: "100%", maxWidth: "900px", background: "#ffffff", padding: "30px", borderRadius: "12px", boxShadow: "0 8px 20px rgba(0,0,0,0.1)"}}
+      >
+        {children}
+      </div>
+    </div>
+  );
+};
+
+export default AppLayout;

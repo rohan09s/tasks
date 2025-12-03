@@ -12,13 +12,18 @@ const TodoItems = ({ task, deleteTask, toggleTask }) => {
         {task.text}
       </span>
 
-      {
+      {/* {
         task.completed && (<button onClick={() => deleteTask(task.id)}
         style={{background: "red", color: "white", border: "none", padding: "4px 8px", borderRadius: "4px", cursor: "pointer"}}
       >
         Delete
       </button> )
-      }
+      } */}
+      <button onClick={() => deleteTask(task.id)}
+        style={{background: "red", color: "white", border: "none", padding: "4px 8px", borderRadius: "4px", cursor: "pointer"}}
+      >
+        Delete
+      </button>
       
     </div>
   );

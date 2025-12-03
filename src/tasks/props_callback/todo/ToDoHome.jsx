@@ -31,8 +31,8 @@ const ToDoHome = () => {
   };
 
   return (
-    <div style={{ padding: "20px", maxWidth: "500px", margin: "0 auto" }}>
-      <h1>Todo App</h1>
+    <div>
+      <h2>Todo App</h2>
       <TodoInput addTask={addTask} />
       <TodoList tasks={tasks} deleteTask={deleteTask} toggleTask={toggleTask} />
     </div>

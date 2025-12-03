@@ -1,10 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import TodoHome from "./ToDoHome";
+import ProjectLayout from "../../../layout/ProjectLayout";
 
 function TodoRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<TodoHome />} />
+      <Route element={<ProjectLayout />}>
+        <Route path="/" element={<TodoHome />} />
+      </Route>
     </Routes>
   );
 }
