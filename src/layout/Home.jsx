@@ -9,6 +9,7 @@ function Home() {
     { name: "Props & Callback", path: "props_callback" },
     { name: "Cards", path: "cards" },
     { name: "Forms", path: "forms" },
+    { name: "Context API", path: "context" },
   ];
 
   return (
