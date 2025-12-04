@@ -18,6 +18,9 @@ function Topics() {
       { name: "User Form", path: "userform" },
       { name: "Contact Form", path: "contactusform" },
     ],
+    context: [
+      { name: "Theme Context", path: "theme_context" },
+    ]
   };
 
   const projects = projectsByCategory[categoryName] || [];

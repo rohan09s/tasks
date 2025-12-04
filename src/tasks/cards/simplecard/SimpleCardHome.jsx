@@ -1,12 +1,12 @@
 import React from 'react'
-import Card from './SimpleCard'
+import SimpleCard from './SimpleCard'
 
-const CardHome = () => {
+const SimpleCardHome = () => {
   return (
     <div style={{display:"flex", flexDirection:"row", justifyContent:"start", background: "#bab4b4ff", height: '729px'}}>
-      <Card />
+      <SimpleCard />
     </div>
   )
 }
 
-export default CardHome;
+export default SimpleCardHome;

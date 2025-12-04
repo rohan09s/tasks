@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
-const Child = ({ onPhotoChange }) => {
+const SetPhotoChild = ({ onPhotoChange }) => {
   const [photo, setPhoto] = useState("");
 
   const handleChange = (e) => {
-    const file = e.target.files[0];   // ✅ real file object
+    const file = e.target.files[0];
     if (file) {
-      const url = URL.createObjectURL(file); // ✅ browser usable image URL
+      const url = URL.createObjectURL(file);
       setPhoto(url);
       onPhotoChange(url);
     }
@@ -19,4 +19,4 @@ const Child = ({ onPhotoChange }) => {
   );
 };
 
-export default Child;
+export default SetPhotoChild;
