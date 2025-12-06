@@ -10,6 +10,7 @@ function Home() {
     { name: "Cards", path: "cards" },
     { name: "Forms", path: "forms" },
     { name: "Context API", path: "context" },
+    { name: "React Hooks", path: "hooks" },
   ];
 
   return (
