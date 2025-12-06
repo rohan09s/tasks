@@ -20,6 +20,13 @@ function Topics() {
     ],
     context: [
       { name: "Theme Context", path: "theme_context" },
+    ],
+    hooks: [
+      { name: "useState for Counter(values)", path: "useStateCounter"},
+      { name: "useState for Text", path: "useStateText"},
+      { name: "useState for Object", path: "useStateObject"},
+      { name: "useEffect for Counter(values)", path: "useEffectCounter"},
+      { name: "useEffect Clean-up Function", path: "useEffectCleanUp"},
     ]
   };
 

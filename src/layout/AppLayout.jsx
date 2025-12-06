@@ -22,6 +22,7 @@ const AppLayout = ({ children }) => {
           width: "100%",
           maxWidth: "900px",
           background: "#ffffff",
+          // background: "theme",
           padding: "30px",
           borderRadius: "12px",
           boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
