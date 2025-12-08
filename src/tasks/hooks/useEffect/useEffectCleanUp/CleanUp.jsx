@@ -10,6 +10,7 @@ const CleanUp = () => {
   // })
 
 
+  // In this, clearInterval will clean-up the side effect of setInterval.
   useEffect(()=> {
     const timer = setInterval(()=> 
       setTime(time + 1), 1000);

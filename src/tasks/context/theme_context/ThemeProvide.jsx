@@ -25,6 +25,7 @@ export const ThemeContext = createContext();
 
 const ThemeProvide = ({ children }) => {
   const [theme, setTheme] = useState("light");
+  
   console.log("Theme:", theme);
 
   return (
