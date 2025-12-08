@@ -11,6 +11,7 @@ function Home() {
     { name: "Forms", path: "forms" },
     { name: "Context API", path: "context" },
     { name: "React Hooks", path: "hooks" },
+    { name: "Navbar", path: "navbar" },
   ];
 
   return (

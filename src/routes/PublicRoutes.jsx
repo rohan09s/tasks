@@ -22,6 +22,9 @@ import TextStateHome from "../tasks/hooks/useState/useStateText/TextSTateHome";
 import ObjectStateHome from "../tasks/hooks/useState/useStateObject/ObjectStateHome";
 import CounterEffectHome from "../tasks/hooks/useEffect/useEffectCounter/CounterEffectHome";
 import CleanUpHome from "../tasks/hooks/useEffect/useEffectCleanUp/CleanUpHome";
+import LoginHome from "../tasks/hooks/useContext/loginContext/LoginHome";
+import RoundNavbarHome from "../tasks/navbar/roundNavbar/RoundNavbarHome";
+import MutableVarHome from "../tasks/hooks/useRef/useRefMutable/MutableVarHome";
 
 function PublicRoutes() {
   return (
@@ -54,6 +57,9 @@ function PublicRoutes() {
           <Route path="/tasks/hooks/useStateObject/*" element={<ObjectStateHome />} />
           <Route path="/tasks/hooks/useEffectCounter/*" element={<CounterEffectHome />} />
           <Route path="/tasks/hooks/useEffectCleanUp/*" element={<CleanUpHome />} />
+          <Route path="/tasks/hooks/loginContext/*" element={<LoginHome />} />
+          <Route path="/tasks/hooks/useRefMutable/*" element={<MutableVarHome />} />
+          <Route path="/tasks/navbar/roundNavbar/*" element={<RoundNavbarHome />} />
       </Route>
     </Routes>
 
