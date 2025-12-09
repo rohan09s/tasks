@@ -28,10 +28,18 @@ function Topics() {
       { name: "useEffect for Counter(values)", path: "useEffectCounter"},
       { name: "useEffect Clean-up Function", path: "useEffectCleanUp"},
       { name: "useContext Login", path: "loginContext"},
-      { name: "useRef Input", path: "useRefMutable"},
+      { name: "useRef Mutable Element", path: "useRefMutable"},
+      { name: "useRef Accessing DOM", path: "useRefAccessDOM"},
+      { name: "useReducer Counter", path: "useReducerCounter"},
+      { name: "useLayout Toggle", path: "useLayoutEffect"},
+      { name: "useLayout Common Example", path: "useLayoutCommonCase"},
+      { name: "useMemo Input", path: "useMemoInput"},
     ],
     navbar: [
       { name: "Round Navbar", path: "roundNavbar"},
+    ],
+    solar: [
+      { name: "Solar System", path: 'solarSystem'}
     ]
   };
 

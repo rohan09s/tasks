@@ -25,6 +25,12 @@ import CleanUpHome from "../tasks/hooks/useEffect/useEffectCleanUp/CleanUpHome";
 import LoginHome from "../tasks/hooks/useContext/loginContext/LoginHome";
 import RoundNavbarHome from "../tasks/navbar/roundNavbar/RoundNavbarHome";
 import MutableVarHome from "../tasks/hooks/useRef/useRefMutable/MutableVarHome";
+import AccessDOMHome from "../tasks/hooks/useRef/useRefAccessDOM/AccessDOMHome";
+import CounterReducerHome from "../tasks/hooks/useReducer/useReducerCounter/CounterReducerHome";
+import LayoutEffectHome from "../tasks/hooks/useLayout/useLayoutEffect/LayoutEffectHome";
+import UseLayoutCaseHome from "../tasks/hooks/useLayout/useLayoutCommonCase/UseLayoutCaseHome";
+import InputMemoHome from "../tasks/hooks/useMemo/useMemoInput/InputMemoHome";
+import SolarHome from "../tasks/solar/solarSystem/SolarHome";
 
 function PublicRoutes() {
   return (
@@ -59,7 +65,13 @@ function PublicRoutes() {
           <Route path="/tasks/hooks/useEffectCleanUp/*" element={<CleanUpHome />} />
           <Route path="/tasks/hooks/loginContext/*" element={<LoginHome />} />
           <Route path="/tasks/hooks/useRefMutable/*" element={<MutableVarHome />} />
+          <Route path="/tasks/hooks/useRefAccessDOM/*" element={<AccessDOMHome />} />
+          <Route path="/tasks/hooks/useReducerCounter/*" element={<CounterReducerHome />} />
+          <Route path="/tasks/hooks/useLayoutEffect/*" element={<LayoutEffectHome />} />
+          <Route path="/tasks/hooks/useLayoutCommonCase/*" element={<UseLayoutCaseHome />} />
+          <Route path="/tasks/hooks/useMemoInput/*" element={<InputMemoHome />} />
           <Route path="/tasks/navbar/roundNavbar/*" element={<RoundNavbarHome />} />
+          <Route path="/tasks/solar/solarSystem/*" element={<SolarHome />} />
       </Route>
     </Routes>
 
