@@ -6,22 +6,22 @@ export const ResumeContext = createContext();
 const ResumeBuilderProvider = ({ children }) => {
   const [profile, setProfile] = useState({
     photo: null,
-    preview: "Photo",
+    preview: "",
 
-    fullname: "Your Name",
-    role: "Your Role",
-    mobile: "Contact Number",
-    email: "Email Address",
-    city: "Your City",
-    bio: "A Short Bio",
+    fullname: "Full Name",
+    role: "Role",
+    mobile: "Mobile",
+    email: "Email",
+    city: "City",
+    bio: "Bio",
 
-    skills: ["HTML, CSS, JavaScript"],
+    skills: ["HTML", "CSS"],
 
     experience: [
       {
-        role: "Your Role in Previous Company",
-        work: "Your work there",
-        duration: "Year - Year",
+        role: "Previous Role",
+        work: "Previous Work",
+        duration: "Previous Service Duration",
       },
     ],
 
@@ -30,7 +30,7 @@ const ResumeBuilderProvider = ({ children }) => {
         degree: "Degree",
         institute: "Institute",
         percentage: "%",
-        duration: "Year - Year",
+        duration: "Duration of degree",
       },
     ],
   });
