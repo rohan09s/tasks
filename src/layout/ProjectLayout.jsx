@@ -10,7 +10,7 @@ const ProjectLayout = () => {
 
   return (
     <div style={{ minHeight: "100vh", width: "100%", background: color, padding: "30px 20px", boxSizing: "border-box", display: "flex", justifyContent: "center" }}>
-      <div style={{ width: "100%", maxWidth: "700px", background: theme, padding: "30px", borderRadius: "14px", boxShadow: "0 10px 25px rgba(0,0,0,0.12)" }}>
+      <div style={{ width: "100%", maxWidth: "100%", background: theme, padding: "30px", borderRadius: "14px", boxShadow: "0 10px 25px rgba(0,0,0,0.12)" }}>
         
         <button
           onClick={() => navigate(-1)}

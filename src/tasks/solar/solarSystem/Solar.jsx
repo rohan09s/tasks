@@ -16,7 +16,6 @@ export default function Solar() {
           animation-timing-function: linear;
           animation-iteration-count: infinite;
 
-          /* More defined orbit look */
           border: 1.5px dashed rgba(180, 220, 255, 0.45);
           box-shadow:
             0 0 6px rgba(150, 200, 255, 0.35),
@@ -29,6 +28,29 @@ export default function Solar() {
           right: -0.5rem;
           transform: translateY(-50%);
           border-radius: 9999px;
+        }
+
+        .moon-orbit {
+          position: absolute;
+          inset: 50%;
+          width: 28px;
+          height: 28px;
+          margin-left: -14px;
+          margin-top: -14px;
+          border-radius: 9999px;
+          animation: orbit 1.6s linear infinite;
+        }
+
+        .moon {
+          position: absolute;
+          right: -4px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 6px;
+          height: 6px;
+          background: #d1d5db;
+          border-radius: 9999px;
+          box-shadow: 0 0 6px rgba(255,255,255,0.85);
         }
       `}</style>
 
@@ -51,8 +73,12 @@ export default function Solar() {
         {/* EARTH + MOON */}
         <div className="orbit w-[230px] h-[230px]" style={{ animationDuration: "10s" }}>
           <div className="planet w-4.5 h-4.5 bg-blue-500 relative shadow-lg">
-            <div className="absolute w-1.5 h-1.5 bg-gray-300 rounded-full 
-              -right-3 top-1/2 -translate-y-1/2 animate-[orbit_1.6s_linear_infinite]" />
+
+            {/* Moon Orbit Wrapper */}
+            <div className="moon-orbit">
+              <div className="moon" />
+            </div>
+
           </div>
         </div>
 

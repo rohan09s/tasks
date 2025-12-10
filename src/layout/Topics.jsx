@@ -20,6 +20,7 @@ function Topics() {
     ],
     context: [
       { name: "Theme Context", path: "theme_context" },
+      { name: "Resume Builder  Context", path: "resumeBuilderContext" },
     ],
     hooks: [
       { name: "useState for Counter(values)", path: "useStateCounter"},
@@ -34,6 +35,7 @@ function Topics() {
       { name: "useLayout Toggle", path: "useLayoutEffect"},
       { name: "useLayout Common Example", path: "useLayoutCommonCase"},
       { name: "useMemo Input", path: "useMemoInput"},
+      { name: "useInput Number Table", path: "useCallbackNumTable"},
     ],
     navbar: [
       { name: "Round Navbar", path: "roundNavbar"},

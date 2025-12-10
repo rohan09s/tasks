@@ -20,7 +20,7 @@ const AppLayout = ({ children }) => {
       <div
         style={{
           width: "100%",
-          maxWidth: "900px",
+          maxWidth: "700px",
           background: "#ffffff",
           // background: "theme",
           padding: "30px",

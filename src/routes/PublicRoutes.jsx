@@ -31,6 +31,8 @@ import LayoutEffectHome from "../tasks/hooks/useLayout/useLayoutEffect/LayoutEff
 import UseLayoutCaseHome from "../tasks/hooks/useLayout/useLayoutCommonCase/UseLayoutCaseHome";
 import InputMemoHome from "../tasks/hooks/useMemo/useMemoInput/InputMemoHome";
 import SolarHome from "../tasks/solar/solarSystem/SolarHome";
+import NumTableHome from "../tasks/hooks/useCallback/useCallbackNumTable/NumTableHome";
+import ResumeBuilderHome from "../tasks/context/resumeBuilderContext/ResumeBuilderHome";
 
 function PublicRoutes() {
   return (
@@ -57,6 +59,7 @@ function PublicRoutes() {
           <Route path="/tasks/forms/contactusform/*" element={<ContactUsFormHome />} />
           {/* <Route path="/tasks/forms/contactusform/*" element={<ContactUsFormRoutes />} /> */}
           <Route path="/tasks/context/theme_context/*" element={<ThemeHome />} />
+          <Route path="/tasks/context/resumeBuilderContext/*" element={<ResumeBuilderHome />} />
           {/* <Route path="/tasks/context/theme_context/*" element={<ThemeRoutes />} /> */}
           <Route path="/tasks/hooks/useStateCounter/*" element={<CounterHome />} />
           <Route path="/tasks/hooks/useStateText/*" element={<TextStateHome />} />
@@ -70,6 +73,7 @@ function PublicRoutes() {
           <Route path="/tasks/hooks/useLayoutEffect/*" element={<LayoutEffectHome />} />
           <Route path="/tasks/hooks/useLayoutCommonCase/*" element={<UseLayoutCaseHome />} />
           <Route path="/tasks/hooks/useMemoInput/*" element={<InputMemoHome />} />
+          <Route path="/tasks/hooks/useCallbackNumTable/*" element={<NumTableHome />} />
           <Route path="/tasks/navbar/roundNavbar/*" element={<RoundNavbarHome />} />
           <Route path="/tasks/solar/solarSystem/*" element={<SolarHome />} />
       </Route>
